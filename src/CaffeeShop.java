@@ -41,6 +41,7 @@ public class CaffeeShop {
                     System.out.println("3. 제품삭제");
                     System.out.println("내용추가");
                     String deletename = scanner.next("제품삭제 입력 >>");
+                    System.out.println("muốn về nhà quá");
                     coffeeM.updateItem(deletename);
                     break;
                 case "4":
